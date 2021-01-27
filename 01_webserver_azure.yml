@@ -1,9 +1,9 @@
 ---
-- hosts: tag_solution_webserver_jesbe
+- hosts: tag_solution_webserver_tnov
   become: yes
   vars:
     websiteheader: "Ansible Playbook"
-    websiteauthor: "Jesper Berth"
+    websiteauthor: "Thomas Novak"
   tasks:
   - name: Install Apache
     dnf:
