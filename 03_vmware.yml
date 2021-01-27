@@ -3,7 +3,7 @@
   vars:
 
   vars_prompt:
-    - name: password
+    - name: Passw0rd!
       prompt: VCenter Password
       private: no
 
