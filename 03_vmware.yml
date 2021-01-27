@@ -3,8 +3,8 @@
   vars:
 
   vars_prompt:
-    - name: password
-      prompt: Passw0rd!
+    - name: Passw0rd!
+      prompt: vCenter Password
       private: no
 
   environment:
